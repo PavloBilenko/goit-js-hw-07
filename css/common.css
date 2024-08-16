@@ -33,3 +33,17 @@ body {
   display: block;
   border-radius: 8px;
 }
+
+#controls {
+  margin-bottom: 20px;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#boxes div {
+  display: inline-block;
+}
